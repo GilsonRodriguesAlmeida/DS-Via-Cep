@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    background-color: #000;
+}
+
+.nav-container {
+    height: 80px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    background-color: #1c62b3;
+}
+
+.nav-main {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-main h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.contact-link {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.card-form {
+    background-color: #333;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.form-container {
+    width: 100%;
+    padding: 40px 20px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label{
+    display: none;
+}
+
+.error-message {
+    margin-top: 5px;
+    color: #faa;
+
+}
+
+.form-input {
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 0 20px;
+    font-size: 14px;
+    border: 0;
+}
+
+.form-input::placeholder {
+    color: #C9C9C9;
+}
+
+.form-input:disabled {
+    background-color: rgb(204, 203, 203);
+}
